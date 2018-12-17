@@ -1,2 +1,0 @@
-# VictorReactDevAcademy
-Created with CodeSandbox

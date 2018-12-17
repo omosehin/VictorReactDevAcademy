@@ -1,0 +1,78 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 0px;
+  margin-top: 10%;
+}
+
+.board_item {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #888;
+  text-align: center;
+  position: relative;
+}
+
+.board_item input {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  border: none;
+  outline: none;
+}
+
+.board_item .swap_button {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background: white;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.board_item .swap_button svg {
+  fill: #1092cc;
+}
+
+.board_item .swap_button.N {
+  top: -15px;
+  left: 40px;
+}
+
+.board_item .swap_button.S {
+  bottom: -15px;
+  left: 40px;
+}
+
+.board_item .swap_button.W {
+  bottom: 40px;
+  left: -15px;
+  transform: rotate(90deg);
+}
+
+.board_item .swap_button.E {
+  bottom: 40px;
+  right: -15px;
+  transform: rotate(90deg);
+}
+
+.info {
+  font-size: 18px;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.info .header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info .entry {
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: cursive;
+}
